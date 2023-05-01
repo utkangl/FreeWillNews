@@ -22,3 +22,10 @@ def contact(request):
         return render(request, "myApp/contact.html", context)
     except:
         print("the template does not exist")
+        
+def login(request):
+    context =  {}
+    try:
+        return render(request, "myApp/login.html", context)
+    except:
+        print("the template does not exist")
