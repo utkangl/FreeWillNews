@@ -1,4 +1,4 @@
-This is the repository of my daily news web site project.
+This is the repository of my daily news website project.
 
 This project:
 
