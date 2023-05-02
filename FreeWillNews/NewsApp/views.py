@@ -29,3 +29,11 @@ def login(request):
         return render(request, "myApp/login.html", context)
     except:
         print("the template does not exist")
+        
+        
+def sampleNew(request):
+    context =  {}
+    try:
+        return render(request, "myApp/sampleNew.html", context)
+    except:
+        print("the template does not exist")
