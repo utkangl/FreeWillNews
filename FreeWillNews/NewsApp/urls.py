@@ -1,10 +1,10 @@
-from NewsApp import views
+from NewsApp import views as news_view
+from userAut import views as user_views
 from django.urls import path
 
 urlpatterns = [
-    path('', views.home, name="home" ),
-    path('faq', views.faq, name="faq" ),
-    path('contact', views.contact, name="contact" ),
-    path('login', views.login, name="login" ),
-    path('sampleNew', views.sampleNew, name="sampleNew" ),
+    path('', news_view.home, name="home" ),
+    path('faq', news_view.faq, name="faq" ),
+    path('contact', news_view.contact, name="contact" ),
+    path('sampleNew', news_view.sampleNew, name="sampleNew" ),
 ]
