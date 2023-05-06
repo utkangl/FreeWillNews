@@ -6,4 +6,5 @@ urlpatterns = [
     path('', include("NewsApp.urls")),
     path('userAut/', include("userAut.urls")),
     path('userAut/', include("django.contrib.auth.urls")),
+    path('staffpage/', include("staffpage.urls")),
 ]   
