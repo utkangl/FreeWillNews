@@ -22,3 +22,7 @@ def login_user(request):
     else:
         return render(request, "./authentication/login.html", context)
         print("form doldurmadan yonlendirilcek yer")
+
+def signup(request):
+    context =  {}
+    return render(request, "./authentication/signup.html", context)
